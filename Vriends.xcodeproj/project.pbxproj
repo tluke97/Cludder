@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B107A8421486EAA008AA959 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B107A8321486EAA008AA959 /* ProfileVC.swift */; };
+		2B40A4FC21CA1C090056AC9F /* PostImage2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40A4F921CA1C080056AC9F /* PostImage2Cell.swift */; };
+		2B40A4FD21CA1C090056AC9F /* PostImage3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40A4FA21CA1C090056AC9F /* PostImage3Cell.swift */; };
+		2B40A4FE21CA1C090056AC9F /* PostImage4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40A4FB21CA1C090056AC9F /* PostImage4Cell.swift */; };
 		2B5432CA2145C83D0013784A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5432C92145C83D0013784A /* AppDelegate.swift */; };
 		2B5432CC2145C83D0013784A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5432CB2145C83D0013784A /* ViewController.swift */; };
 		2B5432CF2145C83D0013784A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5432CD2145C83D0013784A /* Main.storyboard */; };
 		2B5432D22145C83E0013784A /* Vriends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B5432D02145C83E0013784A /* Vriends.xcdatamodeld */; };
 		2B5432D42145C83F0013784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5432D32145C83F0013784A /* Assets.xcassets */; };
 		2B5432D72145C83F0013784A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5432D52145C83F0013784A /* LaunchScreen.storyboard */; };
+		2B5432DF2145CF960013784A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B5432DE2145CF960013784A /* GoogleService-Info.plist */; };
+		2B5432E1214607AE0013784A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5432E0214607AE0013784A /* SignUpVC.swift */; };
+		2B94791321901EA5005160B1 /* TakePicture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94790A21901EA1005160B1 /* TakePicture@3x.png */; };
+		2B94791521901EA5005160B1 /* TakePicture@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94790C21901EA2005160B1 /* TakePicture@1x.png */; };
+		2B94791621901EA5005160B1 /* PhotoLibaryIcon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94790D21901EA2005160B1 /* PhotoLibaryIcon@1x.png */; };
+		2B94791721901EA5005160B1 /* PhotoLibaryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94790E21901EA3005160B1 /* PhotoLibaryIcon@2x.png */; };
+		2B94791921901EA5005160B1 /* TakePicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94791021901EA4005160B1 /* TakePicture@2x.png */; };
+		2B94791A21901EA5005160B1 /* PhotoLibaryIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94791121901EA5005160B1 /* PhotoLibaryIcon@3x.png */; };
+		2B94791F219020D1005160B1 /* VideoRecording@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94791C219020D0005160B1 /* VideoRecording@2x.png */; };
+		2B947920219020D1005160B1 /* VideoRecording@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94791D219020D0005160B1 /* VideoRecording@1x.png */; };
+		2B947921219020D1005160B1 /* VideoRecording@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B94791E219020D1005160B1 /* VideoRecording@3x.png */; };
+		2B947923219021E1005160B1 /* PhotoCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B947922219021E1005160B1 /* PhotoCameraVC.swift */; };
+		2B9F4CC82151F406004D1056 /* FrameBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F4CC52151F404004D1056 /* FrameBorder.png */; };
+		2B9F4CC92151F406004D1056 /* FrameBorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F4CC62151F405004D1056 /* FrameBorder@3x.png */; };
+		2B9F4CCA2151F406004D1056 /* FrameBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F4CC72151F406004D1056 /* FrameBorder@2x.png */; };
+		2BA295D621742D13007D9BDB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA295D521742D13007D9BDB /* FeedVC.swift */; };
+		2BA295DA217554D1007D9BDB /* PostTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA295D9217554D1007D9BDB /* PostTextCell.swift */; };
+		2BA295DC217554E1007D9BDB /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA295DB217554E1007D9BDB /* PostImageCell.swift */; };
+		2BA295DE2175AFB1007D9BDB /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA295DD2175AFB1007D9BDB /* NewPostVC.swift */; };
+		2BBE18EC21BE171F00DAAAE7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE18EB21BE171F00DAAAE7 /* Post.swift */; };
+		2BC1C192214F11AB00C23ECC /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1C191214F11AB00C23ECC /* ImageViewExtensions.swift */; };
+		2BC1C195214F6C3E00C23ECC /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1C194214F6C3E00C23ECC /* QRCodeView.swift */; };
+		2BC1C197214F78FB00C23ECC /* FriendSomeoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1C196214F78FB00C23ECC /* FriendSomeoneVC.swift */; };
+		2BE2477A2191632D00CB5895 /* PreviewPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE247792191632D00CB5895 /* PreviewPhotoVC.swift */; };
+		2BE727512157076400441378 /* AddFriendTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE727502157076400441378 /* AddFriendTabVC.swift */; };
+		2BF514E62155AA6A00A7DE30 /* FriendProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF514E52155AA6A00A7DE30 /* FriendProfileVC.swift */; };
+		2BF514E82155AD1200A7DE30 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF514E72155AD1200A7DE30 /* AlertExtension.swift */; };
+		2BF514F22155D26400A7DE30 /* CameraAdd@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF514EF2155D26300A7DE30 /* CameraAdd@1x.png */; };
+		2BF514F32155D26400A7DE30 /* CameraAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF514F02155D26300A7DE30 /* CameraAdd@2x.png */; };
+		2BF514F42155D26400A7DE30 /* CameraAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF514F12155D26400A7DE30 /* CameraAdd@3x.png */; };
+		B1B7BCFD544F67D5B7D30BAF /* Pods_Vriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6341B1F8901D2EEFEEED0A /* Pods_Vriends.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3D49DA699E5BC20425DE5A /* Pods-Vriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vriends/Pods-Vriends.debug.xcconfig"; sourceTree = "<group>"; };
+		2B107A8321486EAA008AA959 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2B40A4F921CA1C080056AC9F /* PostImage2Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImage2Cell.swift; sourceTree = "<group>"; };
+		2B40A4FA21CA1C090056AC9F /* PostImage3Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImage3Cell.swift; sourceTree = "<group>"; };
+		2B40A4FB21CA1C090056AC9F /* PostImage4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImage4Cell.swift; sourceTree = "<group>"; };
 		2B5432C62145C83D0013784A /* Vriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5432C92145C83D0013784A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B5432CB2145C83D0013784A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +64,38 @@
 		2B5432D32145C83F0013784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5432D62145C83F0013784A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5432D82145C83F0013784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5432DE2145CF960013784A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B5432E0214607AE0013784A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		2B94790A21901EA1005160B1 /* TakePicture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TakePicture@3x.png"; sourceTree = "<group>"; };
+		2B94790C21901EA2005160B1 /* TakePicture@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TakePicture@1x.png"; sourceTree = "<group>"; };
+		2B94790D21901EA2005160B1 /* PhotoLibaryIcon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoLibaryIcon@1x.png"; sourceTree = "<group>"; };
+		2B94790E21901EA3005160B1 /* PhotoLibaryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoLibaryIcon@2x.png"; sourceTree = "<group>"; };
+		2B94791021901EA4005160B1 /* TakePicture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TakePicture@2x.png"; sourceTree = "<group>"; };
+		2B94791121901EA5005160B1 /* PhotoLibaryIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoLibaryIcon@3x.png"; sourceTree = "<group>"; };
+		2B94791C219020D0005160B1 /* VideoRecording@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoRecording@2x.png"; sourceTree = "<group>"; };
+		2B94791D219020D0005160B1 /* VideoRecording@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoRecording@1x.png"; sourceTree = "<group>"; };
+		2B94791E219020D1005160B1 /* VideoRecording@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoRecording@3x.png"; sourceTree = "<group>"; };
+		2B947922219021E1005160B1 /* PhotoCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCameraVC.swift; sourceTree = "<group>"; };
+		2B9F4CC52151F404004D1056 /* FrameBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameBorder.png; sourceTree = "<group>"; };
+		2B9F4CC62151F405004D1056 /* FrameBorder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FrameBorder@3x.png"; sourceTree = "<group>"; };
+		2B9F4CC72151F406004D1056 /* FrameBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FrameBorder@2x.png"; sourceTree = "<group>"; };
+		2BA295D521742D13007D9BDB /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		2BA295D9217554D1007D9BDB /* PostTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTextCell.swift; sourceTree = "<group>"; };
+		2BA295DB217554E1007D9BDB /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		2BA295DD2175AFB1007D9BDB /* NewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
+		2BBE18EB21BE171F00DAAAE7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2BC1C191214F11AB00C23ECC /* ImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtensions.swift; sourceTree = "<group>"; };
+		2BC1C194214F6C3E00C23ECC /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		2BC1C196214F78FB00C23ECC /* FriendSomeoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSomeoneVC.swift; sourceTree = "<group>"; };
+		2BE247792191632D00CB5895 /* PreviewPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoVC.swift; sourceTree = "<group>"; };
+		2BE727502157076400441378 /* AddFriendTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTabVC.swift; sourceTree = "<group>"; };
+		2BF514E52155AA6A00A7DE30 /* FriendProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileVC.swift; sourceTree = "<group>"; };
+		2BF514E72155AD1200A7DE30 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		2BF514EF2155D26300A7DE30 /* CameraAdd@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraAdd@1x.png"; sourceTree = "<group>"; };
+		2BF514F02155D26300A7DE30 /* CameraAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraAdd@2x.png"; sourceTree = "<group>"; };
+		2BF514F12155D26400A7DE30 /* CameraAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraAdd@3x.png"; sourceTree = "<group>"; };
+		6C6341B1F8901D2EEFEEED0A /* Pods_Vriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2822E85DD54D9F2E2634609 /* Pods-Vriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vriends/Pods-Vriends.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B7BCFD544F67D5B7D30BAF /* Pods_Vriends.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +115,8 @@
 			children = (
 				2B5432C82145C83D0013784A /* Vriends */,
 				2B5432C72145C83D0013784A /* Products */,
+				5DD8C9C6EEED3D56F60F7566 /* Pods */,
+				F99B2AA949DF6933C1FA4C15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +131,10 @@
 		2B5432C82145C83D0013784A /* Vriends */ = {
 			isa = PBXGroup;
 			children = (
+				2BBE18F321BE25F100DAAAE7 /* Cells */,
+				2B9F4CC42151F3ED004D1056 /* Images */,
+				2BC1C193214F6C1C00C23ECC /* ExtraClassFiles */,
+				2BC1C190214F118800C23ECC /* Extensions */,
 				2B5432C92145C83D0013784A /* AppDelegate.swift */,
 				2B5432CB2145C83D0013784A /* ViewController.swift */,
 				2B5432CD2145C83D0013784A /* Main.storyboard */,
@@ -63,8 +142,87 @@
 				2B5432D52145C83F0013784A /* LaunchScreen.storyboard */,
 				2B5432D82145C83F0013784A /* Info.plist */,
 				2B5432D02145C83E0013784A /* Vriends.xcdatamodeld */,
+				2B5432DE2145CF960013784A /* GoogleService-Info.plist */,
+				2B5432E0214607AE0013784A /* SignUpVC.swift */,
+				2B107A8321486EAA008AA959 /* ProfileVC.swift */,
+				2BC1C196214F78FB00C23ECC /* FriendSomeoneVC.swift */,
+				2BF514E52155AA6A00A7DE30 /* FriendProfileVC.swift */,
+				2BE727502157076400441378 /* AddFriendTabVC.swift */,
+				2BA295D521742D13007D9BDB /* FeedVC.swift */,
+				2BA295DD2175AFB1007D9BDB /* NewPostVC.swift */,
+				2B947922219021E1005160B1 /* PhotoCameraVC.swift */,
+				2BE247792191632D00CB5895 /* PreviewPhotoVC.swift */,
 			);
 			path = Vriends;
+			sourceTree = "<group>";
+		};
+		2B9F4CC42151F3ED004D1056 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B94791D219020D0005160B1 /* VideoRecording@1x.png */,
+				2B94791C219020D0005160B1 /* VideoRecording@2x.png */,
+				2B94791E219020D1005160B1 /* VideoRecording@3x.png */,
+				2B94790D21901EA2005160B1 /* PhotoLibaryIcon@1x.png */,
+				2B94790E21901EA3005160B1 /* PhotoLibaryIcon@2x.png */,
+				2B94791121901EA5005160B1 /* PhotoLibaryIcon@3x.png */,
+				2B94790C21901EA2005160B1 /* TakePicture@1x.png */,
+				2B94791021901EA4005160B1 /* TakePicture@2x.png */,
+				2B94790A21901EA1005160B1 /* TakePicture@3x.png */,
+				2B9F4CC52151F404004D1056 /* FrameBorder.png */,
+				2B9F4CC72151F406004D1056 /* FrameBorder@2x.png */,
+				2B9F4CC62151F405004D1056 /* FrameBorder@3x.png */,
+				2BF514EF2155D26300A7DE30 /* CameraAdd@1x.png */,
+				2BF514F02155D26300A7DE30 /* CameraAdd@2x.png */,
+				2BF514F12155D26400A7DE30 /* CameraAdd@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2BBE18F321BE25F100DAAAE7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2BA295DB217554E1007D9BDB /* PostImageCell.swift */,
+				2BA295D9217554D1007D9BDB /* PostTextCell.swift */,
+				2B40A4F921CA1C080056AC9F /* PostImage2Cell.swift */,
+				2B40A4FA21CA1C090056AC9F /* PostImage3Cell.swift */,
+				2B40A4FB21CA1C090056AC9F /* PostImage4Cell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2BC1C190214F118800C23ECC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1C191214F11AB00C23ECC /* ImageViewExtensions.swift */,
+				2BF514E72155AD1200A7DE30 /* AlertExtension.swift */,
+				2BBE18EB21BE171F00DAAAE7 /* Post.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BC1C193214F6C1C00C23ECC /* ExtraClassFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1C194214F6C3E00C23ECC /* QRCodeView.swift */,
+			);
+			path = ExtraClassFiles;
+			sourceTree = "<group>";
+		};
+		5DD8C9C6EEED3D56F60F7566 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D49DA699E5BC20425DE5A /* Pods-Vriends.debug.xcconfig */,
+				F2822E85DD54D9F2E2634609 /* Pods-Vriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F99B2AA949DF6933C1FA4C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6341B1F8901D2EEFEEED0A /* Pods_Vriends.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B5432DB2145C83F0013784A /* Build configuration list for PBXNativeTarget "Vriends" */;
 			buildPhases = (
+				41DC0819A9BBA5F63592FA15 /* [CP] Check Pods Manifest.lock */,
 				2B5432C22145C83D0013784A /* Sources */,
 				2B5432C32145C83D0013784A /* Frameworks */,
 				2B5432C42145C83D0013784A /* Resources */,
+				8D06A16D686EA5B64E64E05D /* [CP] Embed Pods Frameworks */,
+				EC3C9EFFBB590E5862F271C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,22 +286,131 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9F4CCA2151F406004D1056 /* FrameBorder@2x.png in Resources */,
 				2B5432D72145C83F0013784A /* LaunchScreen.storyboard in Resources */,
+				2B94791621901EA5005160B1 /* PhotoLibaryIcon@1x.png in Resources */,
+				2B94791321901EA5005160B1 /* TakePicture@3x.png in Resources */,
+				2B5432DF2145CF960013784A /* GoogleService-Info.plist in Resources */,
 				2B5432D42145C83F0013784A /* Assets.xcassets in Resources */,
+				2BF514F42155D26400A7DE30 /* CameraAdd@3x.png in Resources */,
+				2B94791521901EA5005160B1 /* TakePicture@1x.png in Resources */,
 				2B5432CF2145C83D0013784A /* Main.storyboard in Resources */,
+				2B9F4CC82151F406004D1056 /* FrameBorder.png in Resources */,
+				2BF514F22155D26400A7DE30 /* CameraAdd@1x.png in Resources */,
+				2B947921219020D1005160B1 /* VideoRecording@3x.png in Resources */,
+				2B947920219020D1005160B1 /* VideoRecording@1x.png in Resources */,
+				2B94791F219020D1005160B1 /* VideoRecording@2x.png in Resources */,
+				2B94791A21901EA5005160B1 /* PhotoLibaryIcon@3x.png in Resources */,
+				2B94791721901EA5005160B1 /* PhotoLibaryIcon@2x.png in Resources */,
+				2B9F4CC92151F406004D1056 /* FrameBorder@3x.png in Resources */,
+				2B94791921901EA5005160B1 /* TakePicture@2x.png in Resources */,
+				2BF514F32155D26400A7DE30 /* CameraAdd@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41DC0819A9BBA5F63592FA15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vriends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D06A16D686EA5B64E64E05D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vriends/Pods-Vriends-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vriends/Pods-Vriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3C9EFFBB590E5862F271C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vriends/Pods-Vriends-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vriends/Pods-Vriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B5432C22145C83D0013784A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA295D621742D13007D9BDB /* FeedVC.swift in Sources */,
+				2BF514E82155AD1200A7DE30 /* AlertExtension.swift in Sources */,
+				2B107A8421486EAA008AA959 /* ProfileVC.swift in Sources */,
+				2BC1C192214F11AB00C23ECC /* ImageViewExtensions.swift in Sources */,
+				2BF514E62155AA6A00A7DE30 /* FriendProfileVC.swift in Sources */,
+				2B5432E1214607AE0013784A /* SignUpVC.swift in Sources */,
+				2BC1C195214F6C3E00C23ECC /* QRCodeView.swift in Sources */,
+				2BE2477A2191632D00CB5895 /* PreviewPhotoVC.swift in Sources */,
+				2BA295DE2175AFB1007D9BDB /* NewPostVC.swift in Sources */,
 				2B5432CC2145C83D0013784A /* ViewController.swift in Sources */,
+				2B40A4FC21CA1C090056AC9F /* PostImage2Cell.swift in Sources */,
+				2B40A4FE21CA1C090056AC9F /* PostImage4Cell.swift in Sources */,
 				2B5432D22145C83E0013784A /* Vriends.xcdatamodeld in Sources */,
+				2B947923219021E1005160B1 /* PhotoCameraVC.swift in Sources */,
+				2BE727512157076400441378 /* AddFriendTabVC.swift in Sources */,
+				2BA295DA217554D1007D9BDB /* PostTextCell.swift in Sources */,
+				2B40A4FD21CA1C090056AC9F /* PostImage3Cell.swift in Sources */,
 				2B5432CA2145C83D0013784A /* AppDelegate.swift in Sources */,
+				2BBE18EC21BE171F00DAAAE7 /* Post.swift in Sources */,
+				2BC1C197214F78FB00C23ECC /* FriendSomeoneVC.swift in Sources */,
+				2BA295DC217554E1007D9BDB /* PostImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +552,14 @@
 		};
 		2B5432DC2145C83F0013784A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3D49DA699E5BC20425DE5A /* Pods-Vriends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C3CHE6C4B;
 				INFOPLIST_FILE = Vriends/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pitterpatter.Vriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -300,15 +569,14 @@
 		};
 		2B5432DD2145C83F0013784A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2822E85DD54D9F2E2634609 /* Pods-Vriends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C3CHE6C4B;
 				INFOPLIST_FILE = Vriends/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pitterpatter.Vriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

@@ -28,11 +28,15 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Use Camera?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow Vriends to access images from your camera roll?</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow Vriends to add to your photo Library?</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

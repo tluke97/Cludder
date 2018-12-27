@@ -8,8 +8,11 @@
 
 import UIKit
 import CoreData
+import Firebase
+import Parse
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -17,17 +20,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        self.login()
+        Auth.auth().addStateDidChangeListener({ (auth, user) in
+            if let _ = user {
+                
+            } else {
+                
+            }
+        })
+        
+        let parseConfig = ParseClientConfiguration { (ParseMutableClientConfiguration) in
+            
+            ParseMutableClientConfiguration.applicationId = "uN9j2TqVylVspx4xEk6XRteoXhFzYbTF1udy1Mz5"
+            ParseMutableClientConfiguration.clientKey = "OPY6zty9EQbJhm1KVAjU7mqmiRiYtfQHqs2L39H0"
+            ParseMutableClientConfiguration.server = "https://parseapi.back4app.com/"
+            
+        }
+        
+        Parse.initialize(with: parseConfig)
+        
+        
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        if userIsActive == true {
+            let db = Firestore.firestore()
+            let ref = db.collection("Users").document(Auth.auth().currentUser!.uid)
+            ref.updateData([
+                
+                "addable" : false
+                
+            ]) { (error) in
+                if error == nil {
+                    userIsActive = false
+                    print("updated")
+                }
+            }
+        }
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -86,6 +126,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
+        }
+    }
+    
+    
+    
+    func login() {
+        let username: String? = UserDefaults.standard.string(forKey: "uid")
+        
+        if username != nil {
+            
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let tabBar = storyboard.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
+            
+            window?.rootViewController = tabBar
+            
         }
     }
 
